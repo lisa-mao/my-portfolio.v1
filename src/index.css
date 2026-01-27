@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.backgroundDay {
+    background-image: url("images/portfoliograssfield.png");
+}
+
+.backgroundNight {
+    background-image: url("images/portfoliograssfieldnight.png");
+}

@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <section className="bg-[#31572c] text-white">
+        <section className="">
         <h1 id="contact">
             Contact
         </h1>

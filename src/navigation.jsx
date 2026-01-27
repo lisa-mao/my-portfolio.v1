@@ -4,11 +4,16 @@ function Navigation() {
 
     return (
         <>
-            <nav className="bg-[#ecf39e] text-black" >
-                <Link to="#">Home</Link> |{" "}
-                <Link to="#my-projects">My Projects</Link> |{" "}
-                <Link to="#contact">Contact</Link>
-                <Link to="#footer">Footer</Link>
+            <nav className="">
+                {/*<div className="flex flex-row justify-between">*/}
+                {/*    <Link to="#">Lisa Mao</Link> {" "}*/}
+                {/*    <div className="w-30 "></div>*/}
+                {/*    <div className="space-x-3 justify-between">*/}
+                {/*        <Link to="#my-projects">My Projects</Link> {" "}*/}
+                {/*        <Link to="#contact">Contact</Link>*/}
+                {/*    </div>*/}
+
+                {/*</div>*/}
             </nav>
         </>
     )

@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <section className="bg-[#132a13] text-white">
+        <section className="">
             <h1 id="footer">
                 Footer
             </h1>
