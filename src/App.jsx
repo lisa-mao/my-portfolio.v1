@@ -14,40 +14,37 @@ function App() {
     const closeModal = () => setActiveModal(null)
 
     return (
-        <BrowserRouter>
-            <main className="backgroundDay bg-cover bg-no-repeat h-screen w-screen">
-                <img src="/images/sun.png" alt="about me" className="size-40 object-top-right hover:cursor-pointer
+
+        <main className="backgroundDay bg-cover bg-no-repeat h-screen w-screen">
+            <img src="/images/sun.png" alt="about me" className="size-40 object-top-right hover:cursor-pointer
                  scale-50"/>
-                <section className="  flex justify-center items-center ">
+            <section className="  flex justify-center items-center ">
 
 
-
-                    <div className="relative">
+                <div className="relative">
                     <Intro onOpen={setActiveModal}/>
 
-                        {activeModal === 'aboutMe' && (
-                            <AboutMe onClose={(closeModal)}/>
-                            )}
+                    {activeModal === 'aboutMe' && (
+                        <AboutMe onClose={(closeModal)}/>
+                    )}
 
-                        {activeModal === 'myProjects' && (
-                            <MyProjects onClose={(closeModal)}/>
-                        )}
+                    {activeModal === 'myProjects' && (
+                        <MyProjects onClose={(closeModal)}/>
+                    )}
 
-                        {activeModal === 'contact' && (
-                            <Contact onClose={(closeModal)}/>
-                        )}
-
-
+                    {activeModal === 'contact' && (
+                        <Contact onClose={(closeModal)}/>
+                    )}
 
 
-                    </div>
+                </div>
 
 
             </section>
             {/*<Footer/>*/}
         </main>
-</BrowserRouter>
-)
+
+    )
 }
 
 export default App
