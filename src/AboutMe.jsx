@@ -1,4 +1,4 @@
-import closeButton from 'src/images/closebutton.png'
+import closeButton from './images/closebutton.png'
 function AboutMe({onClose}) {
     return (
         <section className="fixed inset-45 flex items-center  z-70a text-black">
