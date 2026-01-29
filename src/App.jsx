@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route, Link, HashRouter} from 'react-router-dom';
+import { HashRouter} from 'react-router-dom';
 import Intro from "./Intro.jsx";
 import AboutMe from "./AboutMe.jsx";
 import MyProjects from "./MyProjects.jsx";
