@@ -14,7 +14,7 @@ function App() {
     return (
         <HashRouter>
             <main className="backgroundDay bg-cover bg-no-repeat h-screen w-screen">
-                <img src={Sun} alt="about me" className="size-40 object-top-right hover:cursor-pointer
+                <img src={Sun} alt="lightmode" className="size-40 object-top-right hover:cursor-pointer
                  scale-50"/>
                 <section className="  flex justify-center items-center ">
 
