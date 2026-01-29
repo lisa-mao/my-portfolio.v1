@@ -1,3 +1,4 @@
+import closeButton from 'public/images/closebutton.png'
 function MyProjects({onClose}) {
     return (
         <section className="fixed inset-0 flex justify-center items-center z-50a text-black">
@@ -9,7 +10,7 @@ function MyProjects({onClose}) {
                             My Projects
                         </h1>
                         <button onClick={onClose} className="hover:cursor-pointer">
-                            <img alt="close button" src="/images/closebutton.png"/>
+                            <img alt="close button" src={closeButton}/>
                         </button>
 
 
