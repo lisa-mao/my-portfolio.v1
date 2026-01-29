@@ -4,7 +4,7 @@ import AboutMe from "./AboutMe.jsx";
 import MyProjects from "./MyProjects.jsx";
 import Contact from "./Contact.jsx";
 import {useState} from "react";
-import Sun from 'src/images/sun.png'
+import Sun from './images/sun.png'
 
 function App() {
     const [activeModal, setActiveModal] = useState(null)
